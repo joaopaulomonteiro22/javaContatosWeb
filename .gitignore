@@ -1,0 +1,61 @@
+# Arquivos temporários
+*~
+*.swp
+
+# Arquivos de compilação e saída
+/target/
+/bin/
+/build/
+
+# Logs
+/log/
+
+# Arquivos de configuração
+application.properties
+application.yml
+
+# Arquivos de ambiente
+.env
+
+# Dependências geradas pelo Maven
+.m2/
+
+# Arquivos de IDE (Eclipse, IntelliJ, VS Code, etc.)
+.idea/
+.classpath
+.project
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# Logs do Spring
+spring.log
+
+# Arquivos gerados durante a execução
+generated/
+
+# Cache do Spring
+spring-boot-starter-data-rest/
+
+# Arquivos de registro de erros
+hs_err_pid*
+
+# Pacotes de distribuição
+/zipkin/
+/dump/
+
+# Dependências locais (por exemplo, se você usar o Maven Wrapper)
+.mvn/
+
+# Arquivos de travamento
+*.lock
+
+# Logs de servidor (Tomcat, etc.)
+logs/
+
+# Arquivos de build do Gradle
+.gradle/
+
+# Arquivos de configuração específicos da IDE (Eclipse)
+.metadata/
